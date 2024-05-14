@@ -1,0 +1,12 @@
+int main(){
+    ccNumber = [4066047920872887,
+            4685476433401805,
+            4249464580242478];
+    for (int i = len - 2; i >= 0; i = i - 2) {
+            int dbl = ((ccNumber[i] - 48) * 2);
+            if (dbl > 9) {
+                dbl = (dbl / 10) + (dbl % 10);
+            }
+            doubleEvenSum += dbl;
+        }
+}
